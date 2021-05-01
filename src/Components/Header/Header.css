@@ -1,0 +1,20 @@
+.header-container{
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to bottom right,#09203f , #537895);
+    background-size: auto;
+}
+
+.inner-header{
+    height: 100%;
+    padding: 20px;
+}
+
+.inner-header .profile-img{
+    height: 250px;
+    width: 250px;
+    object-fit:cover;
+    border-radius: 50%;
+}

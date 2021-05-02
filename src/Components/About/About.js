@@ -15,10 +15,12 @@ const About = () => {
                     </div>
                     <div className="col-md-7 col-12">
                         <h5 className="mb-2">FRONT-END DEVELOPER</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nesciunt sapiente expedita ratione molestiae eaque repudiandae voluptatibus, optio in nihil.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nesciunt sapiente expedita ratione molestiae eaque repudiandae voluptatibus, optio in nihil.</p>
 
-                        <div className="row mt-4 information">
+                        <p>
+                            Building state-of-the-art, easy-to-use, user-friendly websites and applications are truly a passion of mine. I love to take new challenges and I believe that honesty, hard work and passion will help me to grow myself.
+                         </p>
+
+                        <div className="row g-3 mt-4 information">
                             <div className=" col-md-6 col-12">
                                 <p> <span className="text-info">Name:</span> Saraman Khurshid Alam</p>
                                 <p> <span className="text-info">Education:</span> Graduated from the University of Rajshahi in Information and Communicaton Engineering</p>
@@ -33,15 +35,15 @@ const About = () => {
                         </div>
                         <h3 className="text-secondary mt-2">Skills</h3>
                         <hr/>
-                        <div className="row mt-4 skill">
+                        <div className="row g-3 mt-4 skill">
                             
-                            <div className="">
+                            <div className="col-md-6 col-12">
                                 <p> <span className="text-info">Language:</span> C/C++, C#, HTML5, CSS3, JavaScript, ES6, NodeJs</p>
                                 <p> <span className="text-info">Frameworks/Library:</span> React.Js, Bootstrap5, Express.Js, Next.Js Asp.Net MVC</p>
                                 <p> <span className="text-info"> Database:</span> MongoDB, MS SQL</p>
                                 
                             </div>
-                            <div className="" >
+                            <div className="col-md-6 col-12" >
                                 <p> <span className="text-info">IDES:</span> VS Code, Visual Studio, Code Blocks, Android Studio</p>
                                 <p> <span className="text-info">Hosting:</span> Github, Netlify, Firebase</p>
                                 <p> <span className="text-info">Others:</span> Git, Redux, REST API, Firebase</p>

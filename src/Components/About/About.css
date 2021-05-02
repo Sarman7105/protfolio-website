@@ -5,7 +5,7 @@
     border-radius: 5px;
     display: block;
     margin: auto;
-    min-height: 600px;
+    max-height: 600px;
 }
 
 .information{

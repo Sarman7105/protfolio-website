@@ -1,0 +1,6 @@
+.fixed-top{
+    overflow: hidden !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

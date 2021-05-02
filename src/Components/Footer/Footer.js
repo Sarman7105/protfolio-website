@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
 	return (
-		<footer className="bg-dark p-5">
+		<footer id="contact" className="bg-dark p-5">
 			<h3 className="text-center">
 				{' '}
 				<span className="text-info">CONTACT</span> ME

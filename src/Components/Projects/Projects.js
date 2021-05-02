@@ -3,9 +3,9 @@ import './Projects.css'
 
 const Projects = () => {
     return (
-        <div className="project-container p-5">
-            <h3 className="text-center">MY <span className="text-info"> PROJECTS </span></h3>
-            <div className="container mt-5">
+        <div id="project"  className="project-container p-5">
+            <h3 className="text-center mt-3">MY <span className="text-info"> PROJECTS </span></h3>
+            <div  className="container mt-5">
                 <div className="row g-5">
                     <div className="col-md-4">
                         <div className="p-3 project-card">
@@ -19,8 +19,22 @@ const Projects = () => {
                             </div>
                             
                             <div className="d-flex justify-content-between mt-5">
-                                <button className="btn btn-info me-2">Github</button>
-                                <button className="btn btn-info">Live Site</button>
+                                <a
+                                    href="https://github.com/Sarman7105/event-maker"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    
+                                    <button className="btn btn-info me-2">Github</button>
+                                </a>
+                                <a
+                                    href="https://event-maker-a7d35.web.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    
+                                    <button className="btn btn-info">Live Site</button>
+                                </a>
+                                
+                                
                             </div>
                             
                         </div>
@@ -38,8 +52,22 @@ const Projects = () => {
                             </div>
                             
                             <div className="d-flex justify-content-between mt-5">
-                                <button className="btn btn-info me-2">Github</button>
-                                <button className="btn btn-info">Live Site</button>
+                                <a
+                                    href="https://github.com/Sarman7105/ema-jhon"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    
+                                    <button className="btn btn-info me-2">Github</button>
+                                </a>
+                                <a
+                                    href="https://ema-jhon-782d0.web.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    
+                                    <button className="btn btn-info">Live Site</button>
+                                </a>
+                                
+                                
                             </div>
                         </div>
                     </div>
@@ -56,8 +84,24 @@ const Projects = () => {
                             </div>
                             
                             <div className="d-flex justify-content-between mt-5">
-                                <button className="btn btn-info me-2">Github</button>
-                                <button className="btn btn-info">Live Site</button>
+                                <a
+                                    href="https://github.com/Sarman7105/book-valley"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    
+                                    <button className="btn btn-info me-2">Github</button>
+                                    
+                                </a>
+                                <a
+                                    href="https://book-shop-bd40c.web.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    
+                                    <button className="btn btn-info">Live Site</button>
+                                    
+                                </a>
+                                
+                                
                             </div>
                         </div>
                     </div>
